@@ -1,17 +1,11 @@
-var timerCount = 10;
-
+var timerCount = 60;
 var startButton = document.querySelector(".startButton");
-var timer1 = document.querySelector(".timer")
-var message1 = document.querySelector(".message")
+var timer= document.querySelector(".timer")
 
 startButton.addEventListener("click", function (event) {
-    startButton.style.display= none
-
-    var timer = setInterval(function()) {
-        timerCount--;
-        timer1.textContent = timerCount
-
-    if (timerCount)
-
+        startButton.style.display= none 
+    
+    
     }
-})
+)
+
