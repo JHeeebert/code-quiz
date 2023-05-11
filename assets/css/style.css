@@ -4,7 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace, Arial, Helvetica, sans-serif;
-    /* border: 1px solid seagreen; */
+    
+    /*--------------------*/
+    /*-------DEBUG--------*/
+    /*--------------------*/
+    border: 1px solid seagreen; 
 }
 
 /*styles entire body of app*/
@@ -64,23 +68,7 @@ h1 {
 }
 
 .quiz-info,
-.questions,
 .quiz-end,
-.high-score-screen
- {
-    margin: 0 auto;
-    display: block;
-}
-
-
-/* .questions {
-    display: none;
-}
-
-.quiz-end {
-    display: none;
-}
-
 .high-score-screen {
-    display: none;
-} */
+    margin: 0 auto;
+}
