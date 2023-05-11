@@ -4,41 +4,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace, Arial, Helvetica, sans-serif;
-    border: 1px solid seagreen;
+    /* border: 1px solid seagreen; */
 }
+
 /*styles entire body of app*/
 body {
     background-color: palegoldenrod;
     overflow: hidden;
 }
 
-p {
-    color: rgb(19, 20, 20);
-    font-size: 20px;
-    float: right;
-}
-
-.hs-button {
-    background-color: palegreen;
-    color: aliceblue;
-    font-size: 15px;
-
-}
 /* Style wrapper for entire quiz box */
 .wrapper {
     padding: 10px;
     height: 100vh;
+}
 
+.title .hs-button {
+    justify-content: space-between;
 }
 
 .top-nav {
     padding: 10px;
     margin: 20px;
-    border-bottom: 3px solid seagreen ;
+    border-bottom: 3px solid seagreen;
 }
 
-.top-nav
-p {
+.top-nav p {
     float: right;
 }
 
@@ -51,37 +42,45 @@ p {
     padding-top: 10px;
     flex-direction: column;
     justify-content: center;
+    border: solid 3px seagreen;
+    background-color: peachpuff;
+    align-items: center;
+    text-align: center;
 }
 
-.quiz-container p {
-    float: none;
-}
 /*styles main quiz info and start button*/
-.quiz-info, main {
+.quiz-info,
+main {
     margin-bottom: 30vh;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: burlywood;
+
 }
 
-.quiz-info p, h1 {
+.quiz-info p,
+h1 {
     text-align: center;
 
 }
 
-.quiz-info button {
+.quiz-info,
+.questions,
+.quiz-end,
+.high-score-screen
+ {
     margin: 0 auto;
     display: block;
 }
 
-.questions{
 
+/* .questions {
+    display: none;
 }
 
 .quiz-end {
-
+    display: none;
 }
 
 .high-score-screen {
-
-}
+    display: none;
+} */

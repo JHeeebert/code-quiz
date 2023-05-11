@@ -12,48 +12,52 @@
 <body>
     <div class="wrapper">
         <nav class="top-nav">
-            <button class="hs-button" id="hs-button">High Scores</button>
-            <p id="timer">Timer 00:00</p>
+            <h class="title">Code Quiz</h>
+            <button class="hs-button">High Scores</button>
         </nav>
+        </header>
+        <main>
         <div class="quiz-container">
-            <header class="quiz-info">
+            <div class="quiz-info">
+                <div class="timer">
+                    <p id="timer-count">Timer 00:00</p>
+                </div>
                 <h1>A Coding Quiz To Test Your Knowledge</h1>
                 <p>Click the start button to begin!!!!</p>
-                <button class="start-button">Click Here to Start</button>
-            </header>
-            <main>
-                <section class="questions">
-                    <h2>?????</h2>
-                    <ul>
-                        <li>?-1</li>
-                        <li>?-2</li>
-                        <li>?-3</li>
-                        <li>?-4</li>
-                    </ul>
-                </section>
-                <section class="quiz-end">
-                    <h2>You Have Finished the Quiz</h2>
-                    <p>Your Score: ##</p>
-                    <div>
-                        <label for="">Enter Initials:</label>
-                        <input type="text">
-                        <button class="submit-score">Click to add High Score</button>
-                    </div>
-                </section>
-                <section class="high-score-screen">
-                    <h2>High Scores</h2>
-                    <ol class="hs-list">
-                        <!-------------->
-                        <!---- JavaScript will generate this list-->
-                        <!-------------->
-                    </ol>
-                    <button class="back">Restart</button>
-                    <button class="clear">Clear High Scores</button>
-                </section>
-            </main>
+                <button id="quiz-button">Click Here to Start</button>
+                  <section class="questions">
+                        <h2>?????</h2>
+                        <ul>
+                            <li>?-1</li>
+                            <li>?-2</li>
+                            <li>?-3</li>
+                            <li>?-4</li>
+                        </ul>
+                    </section>
+                    <section class="quiz-end">
+                        <h2>You Have Finished the Quiz</h2>
+                        <p>Your Score: ##</p>
+                        <div>
+                            <label for="">Enter Initials:</label>
+                            <input type="text">
+                            <button id="submit-score">Click to add High Score</button>
+                        </div>
+                    </section>
+                    <section class="high-score-screen">
+                        <h2>High Scores</h2>
+                        <ol class="hs-list">
+                            <li>JH 10</li>
+                            <!-------------->
+                            <!---- JavaScript will generate this list-->
+                            <!-------------->
+                        </ol>
+                        <button id="reset-btn">Restart</button>
+                        <button id="clear-btn">Clear High Scores</button>
+                    </section>
+                </main>
+            </div>
         </div>
-    </div>
-    <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
