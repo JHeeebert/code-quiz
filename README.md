@@ -15,10 +15,10 @@ responsive user interfacte that adapts to multiple screen sizes.
 
 
 ## 🔗 Link to Repo
-[]
+[https://github.com/JHeeebert/code-quiz]
 
 ## 🔗 Link to Deployed Site
-[]
+[https://jheeebert.github.io/code-quiz/]
 
 ## 🫶 Contributors
 Joshua Hebert
