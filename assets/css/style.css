@@ -14,7 +14,7 @@
 body {
     background-color: palegoldenrod;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -34,29 +34,33 @@ body {
     align-items: center;
     border-radius: 8px;
     text-align: center;
- 
-}
 
-.quiz-container {
-    margin: 0 auto; 
-    display: flex;
-    padding-top: 10px;
-    flex-direction: column;
-    justify-content: center;
-    border: solid 3px seagreen;
-    background-color: peachpuff;
-    align-items: center;
-    text-align: center;
 }
 
 .options {
-    display: none;
+    /* display: none; */
+    margin: 20px;    
+    padding: 10px;
+    border: solid 3px seagreen;
+    background-color: peachpuff;
 }
 
 .scorecard {
-    display: none;
+    margin: 20px;   
+    padding: 10px;
+    border: solid 3px seagreen;
+    background-color: peachpuff;
+
+    /* display: none; */
+
 }
 
 .high-scores {
-    display: none;
+    margin: 20px;   
+    padding: 10px;
+    border: solid 3px seagreen;
+    background-color: peachpuff;
+
+
+    /* display: none; */
 }
