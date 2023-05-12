@@ -2,46 +2,43 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: monospace, Arial, Helvetica, sans-serif;
-    
+
     /*--------------------*/
     /*-------DEBUG--------*/
     /*--------------------*/
-    border: 1px solid seagreen; 
+    /* border: 1px solid seagreen;  */
 }
 
 /*styles entire body of app*/
 body {
     background-color: palegoldenrod;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 /* Style wrapper for entire quiz box */
-.wrapper {
-    padding: 10px;
-    height: 100vh;
+.container {
+    width: 80vw;
+    max-width: 80%;
+    height: 70vh;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+ 
 }
 
-.title .hs-button {
-    justify-content: space-between;
-}
-
-.top-nav {
-    padding: 10px;
-    margin: 20px;
-    border-bottom: 3px solid seagreen;
-}
-
-.top-nav p {
-    float: right;
-}
-
-/*styles entire quiz container*/
 .quiz-container {
-    height: 100%;
-    width: 50%;
-    margin: 0 auto;
+    margin: 0 auto; 
     display: flex;
     padding-top: 10px;
     flex-direction: column;
@@ -52,23 +49,14 @@ body {
     text-align: center;
 }
 
-/*styles main quiz info and start button*/
-.quiz-info,
-main {
-    margin-bottom: 30vh;
-    margin-left: 10%;
-    margin-right: 10%;
-
+.options {
+    display: none;
 }
 
-.quiz-info p,
-h1 {
-    text-align: center;
-
+.scorecard {
+    display: none;
 }
 
-.quiz-info,
-.quiz-end,
-.high-score-screen {
-    margin: 0 auto;
+.high-scores {
+    display: none;
 }
