@@ -7,10 +7,10 @@ along with a high score leaderboard that is stored in the localStorage database.
 responsive user interfacte that adapts to multiple screen sizes.
 
 ## 🔗‍💥 Issues Faced During Project
-1.  
+1.  cannot get the JS to work!
 
 ## 🔎 Preview
-<img src= ".\assets\images\" 
+<img src= ".\assets\images\codequiz.jpg" 
     alt= "this should be a screenshot of the project"/>
 
 
